@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <div id="exemplo"></div>
+</body>
+</html>
+
+
+var birthYear = 1984;
+var curretYear = 2022;
+
+while (birthYear <= curretYear){
+    document.write("Os anos depois do ano do meu nascimento:" + birthYear + "<br>" );
+    birthYear++;
+}
+
+do {
+    document.write("Os anos depois do ano do meu nascimento:" + birthYear + "<br>" );
+    birthYear++;
+} while (birthYear <= curretYear);
